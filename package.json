@@ -1,0 +1,19 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Single-page app for restaurant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbkabali/Restaurant-Page.git"
+  },
+  "author": "Paul Balitema Kabali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbkabali/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/pbkabali/Restaurant-Page#readme"
+}
