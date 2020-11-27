@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/pbkabali/Restaurant-Page/issues"
   },
-  "homepage": "https://github.com/pbkabali/Restaurant-Page#readme"
+  "homepage": "https://github.com/pbkabali/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.8.0",
+    "webpack-cli": "^4.2.0"
+  }
 }
