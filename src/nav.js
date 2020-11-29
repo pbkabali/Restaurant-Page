@@ -1,12 +1,13 @@
 import NavItem from "./navItem";
+import { switchTabs } from "./index";
 import "./css/nav.css";
 
 const nav = () => {
   const element = document.createElement("div");
   const navItems = [
-    new NavItem("Home", null, true),
-    new NavItem("Menu", null, false),
-    new NavItem("Contact", null, false),
+    new NavItem("Home", true),
+    new NavItem("Menu", false),
+    new NavItem("Contact", false),
   ];
 
   const clearSelected = (items_arr) => {
@@ -21,6 +22,7 @@ const nav = () => {
     obj.element.onclick = () => {
       if (!obj.selected) {
         clearSelected(navItems);
+        switchTabs(obj.label);
         obj.select();
       }
     };

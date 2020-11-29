@@ -1,9 +1,8 @@
 import "./css/nav-item.css";
 
 class NavItem {
-  constructor(label, action, selected) {
+  constructor(label, selected) {
     this.label = label;
-    this.action = action;
     this.selected = selected;
     this.element = document.createElement("div");
     this.element.innerText = this.label;
