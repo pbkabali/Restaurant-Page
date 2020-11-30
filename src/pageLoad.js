@@ -1,23 +1,21 @@
-/* eslint-disable*/
-import nav from "./nav";
-import "./css/styles.css";
-import homeTab from "./homeTabContent";
+import nav from './nav';
+import './css/styles.css';
+import homeTab from './homeTabContent';
 
-const contentDiv = document.getElementById("content");
+const contentDiv = document.getElementById('content');
 
 const tab = () => {
-  const tab = document.createElement("div");
-  tab.id = "tab";
-  tab.classList.add("tab", "flex");
+  const tab = document.createElement('div');
+  tab.id = 'tab';
+  tab.classList.add('tab', 'flex');
   tab.appendChild(homeTab());
   return tab;
 };
 
 const pageLoad = () => {
-  contentDiv.classList.add("container");
+  contentDiv.classList.add('container');
   contentDiv.appendChild(nav());
   contentDiv.appendChild(tab());
 };
 
 export default pageLoad;
-/* eslint-disable*/
