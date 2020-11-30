@@ -1,3 +1,4 @@
+/* eslint-disable*/
 import pageLoad from "./pageLoad";
 import homeTab from "./homeTabContent";
 import menuTab from "./menuTabContent";
@@ -16,3 +17,5 @@ export const switchTabs = (name) => {
   tabContentDiv.innerText = "";
   tabContentDiv.appendChild(tabs[name.toLowerCase()]());
 };
+
+/* eslint-enable */

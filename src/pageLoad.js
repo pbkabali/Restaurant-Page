@@ -1,3 +1,4 @@
+/* eslint-disable*/
 import nav from "./nav";
 import "./css/styles.css";
 import homeTab from "./homeTabContent";
@@ -19,3 +20,4 @@ const pageLoad = () => {
 };
 
 export default pageLoad;
+/* eslint-disable*/

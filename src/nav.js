@@ -1,3 +1,4 @@
+/* eslint-disable*/
 import NavItem from "./navItem";
 import { switchTabs } from "./index";
 import "./css/nav.css";
@@ -10,8 +11,8 @@ const nav = () => {
     new NavItem("Contact", false),
   ];
 
-  const clearSelected = (items_arr) => {
-    items_arr.forEach((item) => {
+  const clearSelected = (itemsArr) => {
+    itemsArr.forEach((item) => {
       if (item.selected) {
         item.deSelect();
       }
@@ -33,3 +34,4 @@ const nav = () => {
 };
 
 export default nav;
+/* eslint-disable*/
