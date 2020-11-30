@@ -1,10 +1,8 @@
-// import hoemTab from "./homeTabContent";
-// import "./css/styles.css";
-// import homeTab from "./homeTabContent";
+import "./css/menu-heading.css";
 
 const menuSectionHeading = (text) => {
   const heading = document.createElement("h2");
-  // heading.classList.add("tab", "flex");
+  heading.classList.add("menu-heading");
   heading.innerText = text;
   return heading;
 };
