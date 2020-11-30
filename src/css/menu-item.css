@@ -1,0 +1,18 @@
+.menu-card {
+  margin: 10px 0 10px 0;
+  background-color: sandybrown;
+  border-radius: 5px;
+  padding: 20px;
+  width: 70%;
+}
+
+.menu-item-img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.menu-item-details {
+}

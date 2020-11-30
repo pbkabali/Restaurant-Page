@@ -1,5 +1,4 @@
 import nav from "./nav";
-import hoemTab from "./homeTabContent";
 import "./css/styles.css";
 import homeTab from "./homeTabContent";
 
