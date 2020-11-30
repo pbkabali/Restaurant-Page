@@ -1,5 +1,5 @@
 export const tagLine = () => {
-  const element = document.createElement("h1");
-  element.innerText = "Excite your taste budz in a warm and cozy environment";
+  const element = document.createElement("h2");
+  element.innerText = "Excite your taste budz 😋";
   return element;
 };

@@ -13,3 +13,14 @@
 .tab-content::-webkit-scrollbar {
   display: none;
 }
+
+.welcome-msg {
+  width: 50%;
+  text-align: center;
+  background-color: rgba(210, 105, 30, 0.5);
+  color: white;
+  margin-top: auto;
+  margin-bottom: 20vh;
+  padding: 20px;
+  border-radius: 10%;
+}
