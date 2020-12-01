@@ -4,7 +4,7 @@ const menuItem = (image, dish, desc, price) => {
   const card = document.createElement('div');
   const cardLeft = document.createElement('div');
   card.classList.add('flex', 'menu-card');
-  cardLeft.classList.add('flex', 'card-left');
+  cardLeft.classList.add('flex');
   const img = document.createElement('img');
   img.src = image;
   img.classList.add('menu-item-img');

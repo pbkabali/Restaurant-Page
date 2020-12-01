@@ -8,7 +8,7 @@ const contactTab = () => {
     contactItem('fa-home', '62A Luthili Avenue, Upper Kololo, Kampala Uganda'),
   );
   tab.appendChild(contactItem('fa-phone', '0-800-JYUMMY, +256-772-111122'));
-  tab.appendChild(contactItem('fa-envelope', 'justyummy@justyammy.food'));
+  tab.appendChild(contactItem('fa-envelope', 'justyummy@justyummy.food'));
   tab.appendChild(contactItem('fa-whatsapp', '+256-772-111122'));
   return tab;
 };

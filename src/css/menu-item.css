@@ -4,13 +4,8 @@
   border-radius: 5px;
   padding: 20px;
   width: 70%;
-  flex-wrap: nowrap;
   justify-content: space-between;
   color: white;
-}
-
-.card-left {
-  flex-wrap: nowrap;
 }
 
 .menu-item-img {
